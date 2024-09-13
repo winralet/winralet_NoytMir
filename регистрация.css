@@ -1,0 +1,115 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #90B494;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: #BFC8AD;
+  color: #545775;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  width:500px;
+  height:250px;
+}
+
+h2 {
+  margin-top: 20;
+  color: #545775;
+}
+
+input {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+  color:#00bbff
+
+}
+
+button {
+ width:210px;
+  height:40px;
+  background-color: #f39c12; 
+  color: #ffffff; 
+  border: none;
+  padding: 10px 30px; 
+  font-size: 1.2em; 
+  border-radius: 5px;
+  cursor: pointer; 
+  transition: background-color 0.3s, transform 0.2s; 
+                    
+  margin-top:3px; 
+  margin-left:290px;  
+}
+
+button:hover {
+  background-color: #e67e22; 
+  transform: scale(1.05);  
+}
+
+.button:active {
+  transform: scale(0.95); 
+}
+
+p {
+  margin: 10px 0 0;
+}
+
+#toggle, #toggle_login {
+  color: blue;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+
+
+.beautiful-button {
+  padding: 10px;
+  background: #5cb85c;
+  color: white;
+  border: none;
+  width: 100%;
+  cursor: pointer;
+
+  margin-left:0px
+}
+
+            
+.beautiful-button:hover {
+ background: #4cae4c;  
+}
+                
+
+.p{
+  margin-top:-5px;
+  font-size:1rem;
+}
+
+#cait{
+  color: #00bbff;
+  padding-left: 40px;
+  text-align:center;
+}
+
+#cait:hover{
+  color:#00607a;
+}
+
+#username,#password{
+  background-color: #90B494;
+  border:khaki;
+  color:#545775;
+}
+
+#reg_username,#reg_password{
+  background-color: #90B494;
+  border:khaki;
+  color:#545775;
+}

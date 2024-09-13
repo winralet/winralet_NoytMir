@@ -1,0 +1,129 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color:#90B494;
+  color: #545775;
+}
+.main-container {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+.block-html, .block-css {
+  background-color:#BFC8AD;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  font-size:1.3rem;
+}
+.block-css img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.block {
+  background-color:#BFC8AD;
+  border: 2px solid #4CAF50;
+  color: #545775;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s;
+
+  width:200px;
+  height:200px
+}
+.block:hover {
+  transform: scale(1.05);
+}
+.block img {
+  width: 100px;
+  height: 100px;
+}
+.block p {
+  margin: 10px 0 0;
+  font-size: 18px;
+}
+
+.footer {
+  background-color: #BFC8AD;
+  border: 2px solid #457B9D;
+  color: #545775;
+  font-size: 1.3rem;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer p {
+  margin: 5px 0; /* уменьшить отступы между параграфами */
+}
+
+.footer ul {
+  padding: 0; /* убрать отступы у списка */
+  margin: 5px 0; /* добавить отступ сверху и снизу списка */
+}
+
+.buy-section {
+  background-color: #BFC8AD;
+  color: #545775;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.buy-section h2 {
+  font-size: 1.8rem;
+}
+
+.buy-section p {
+  font-size: 1.2rem;
+  margin: 10px 0;
+  color: #545775;
+}
+
+.buy-button {
+  background-color: #4CAF50; /* Зеленый цвет для кнопки */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.buy-button:hover {
+  background-color: #45A049; /* Более тёмный зеленый при наведении */
+}
+
+.kor{
+ background-color:#c74040;
+ width:100px;
+ height:50px;
+
+ margin-left:000px;
+ margin-top:0px;
+ text-align:center;
+}
+
+.kor-name{
+  width:30px;
+  text-align:center;
+  margin-top:-3px;
+}
+
+.p-kor{
+  margin-left:-20px
+}
